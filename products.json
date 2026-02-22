@@ -25,6 +25,10 @@
     {"id":"prod-cfd1f9fd-019","name":"Pro Item 19","category":"home","price":50.33,"stock":180,"rating":4.8}
   ],
   "aggregations": {
+    "books": {
+      "count": 4,
+      "inventoryValue": 46656.54
+    },
     "clothing": {
       "count": 7,
       "inventoryValue": 123224.00
@@ -32,6 +36,14 @@
     "electronics": {
       "count": 1,
       "inventoryValue": 24283.28
+    },
+    "home": {
+      "count": 4,
+      "inventoryValue": 133276.09
+    },
+    "sports": {
+      "count": 3,
+      "inventoryValue": 108775.41
+    }
     }
    }
-  }
